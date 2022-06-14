@@ -1,0 +1,85 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ #paired_analysis{
+     display: none;
+ }
+ #items__form{
+    padding: 10px;
+  }
+  h3.pca_heading3{
+    border-bottom: 1px solid;
+    color: #fab11e;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #lines{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .item__line .item__input{
+    border: .1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+  }
+  #item__submit{
+    padding: 5px 10px;
+    background-color: #fab11e;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #item__submit:hover{
+    transition: .3s ease-in-out;
+    opacity: .7;
+  }
+  
+  /* Questions */
+  #items_questions{
+    padding: 10px 0;
+  }
+  #list__items{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  #list__items > li.list__item{
+    display: none;
+  }
+  
+  #list__items > li.list__item.active{
+    display: flex;
+    gap: 10px;
+  }
+  
+  #list__items > li.list__item > div{
+    padding: 0px 10px;
+    border-radius: 3px;
+    border-color: #fab11e;
+    border-width: 2px;
+    border-style: solid;
+    color: #fab11e;
+    cursor: pointer;
+    user-select: none;
+    line-height: 26px;
+  }
+  #list__items > li.list__item > div.imgItem{
+    display: flex;
+    padding: 0;
+  }
+  #list__items > li.list__item > div > img{
+    width: 100px;
+  }
+  #list__items > li.list__item > div.selected{
+    background-color: #fab11e;
+    color: #fff;
+  }
+  .noned{
+    display: none;
+  }
+  

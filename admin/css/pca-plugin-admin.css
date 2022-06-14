@@ -1,0 +1,76 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .research_input {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+div#research__wrapper h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.textInput {
+    margin-bottom: 10px;
+}
+.textInput input {
+    width: 100%;
+}
+img[src=""]{
+    display: none;
+}
+.rImages {
+    margin-bottom: 20px;
+}
+.previewBox {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #565656;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.image_research {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 14px;
+}
+.image_research textarea {
+    width: calc(100% - 240px);
+}
+button.uploadImg {
+    width: fit-content;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.image_research .removeImg{
+    position: absolute;
+    right: 4px;
+    top: -10px;
+    font-size: 34px;
+    color: red;
+    cursor: pointer;
+    user-select: none;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.wpf_paremers, .fieldIds {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button#getFormFields {
+    margin-top: 10px;
+}
