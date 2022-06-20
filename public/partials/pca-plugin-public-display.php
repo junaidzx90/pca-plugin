@@ -19,16 +19,17 @@
     <?php
     if(isset($_POST['wpforms'])){
         echo do_shortcode('[wpforms id="'.$atts['form'].'"]');
+        ?>
+        <a class="do_another_research" href="<?php echo get_the_permalink(  ) ?>">Do Another Research</a>
+        <?php
     }else{
         ?>
         <!--  Form  -->
         <div id="items__form">
             <div id="lines">
-
                 <div class="item__line">
                     <input data-id="1" type="text" class="item__input">
                 </div>
-
             </div>
 
             <button id="item__submit">Submit</button>

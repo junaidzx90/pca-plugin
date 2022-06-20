@@ -68,6 +68,13 @@
     user-select: none;
     line-height: 26px;
   }
+  a.do_another_research {
+    padding: 8px 15px;
+    background-color: #fab11e;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
   #list__items > li.list__item > div.imgItem{
     display: flex;
     padding: 0;

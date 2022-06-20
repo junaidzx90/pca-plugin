@@ -151,7 +151,6 @@ class Pca_Plugin {
 	 * @access   private
 	 */
 	private function define_admin_hooks() {
-
 		$plugin_admin = new Pca_Plugin_Admin( $this->get_plugin_name(), $this->get_version() );
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
@@ -168,7 +167,6 @@ class Pca_Plugin {
 		$this->loader->add_action( "post_row_actions", $plugin_admin, "remove_quick_edit_research", 99, 2);
 
 		$this->loader->add_action( 'admin_menu', $plugin_admin, 'admin_menupage' );
-
 	}
 
 	/**
